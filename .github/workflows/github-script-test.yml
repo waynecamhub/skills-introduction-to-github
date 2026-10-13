@@ -20,7 +20,7 @@ jobs:
             body: "🎉 You've created this issue comment using GitHub Script!!!"
             })
 
-    - uses: actions/github-script@8.0.0
+    - uses: actions/github-script@0.8.0
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: |
